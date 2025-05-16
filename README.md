@@ -102,16 +102,16 @@ Ivone: Guaraná
 
 10) 
 • Arremesso 
-🥇 Barnabé 
-🥈 Gumercindo 
-🥉 Teodoro 
+1- Barnabé    🥇
+2- Gumercindo 🥈
+3- Teodoro    🥉
 • Salto 
-🥇 Gumercindo 
-🥈 Teodoro
-🥉 Barnabé 
+1- Gumercindo 🥇
+2- Teodoro    🥈
+3- Barnabé    🥉
 • 100 m
-🥇 Teodoro 
-🥈 Barnabé 
-🥉 Gumercindo 
+1- Teodoro    🥇
+2- Barnabé    🥈
+3- Gumercindo 🥉
 
 

@@ -1,0 +1,44 @@
+1) Sabendo que A=5, B=10, C= -8, D=1,5 calcule:
+a) 2*A mod 3-C
+2*5 mod 3- (-8)
+10 mod 3 - (-8)
+1 - (-8)
+9
+resultado: 9
+
+b) rad (-2 * C) div 4
+rad (-2* (-8) ) div 4
+rad (16) div 4
+4 div 4
+1
+resultado: 1
+
+c) ((20 div 3) div 3) + pot (8, 2)/2
+(6 div 3) + pot (8, 2)/2
+2 + 64/2
+2+ 32
+34
+resultado: 34
+
+d) (30 mod 4* pot (3, 3) * (-1)
+(30 mod 4* 9* (-1)
+2*9*(-1)
+18* (-1)
+-18
+resultado: -18
+
+e) pot (-C, 2) + (D*10)/A
+pot (-(-8), 2) + (1,5*10)/5
+pot (8,2) + 15/5
+64 + 3
+67
+resultado: 67
+
+f) rad (pot (A, B/A) + C * D
+rad (pot 5, 10/5) + (-8) * 1,5
+rad (pot 5, 2) + (-8)* 1,5
+rad 25 + (-8)* 1,5
+5 + (-8)* 1,5
+5  + (-12)
+7
+resultado: -7

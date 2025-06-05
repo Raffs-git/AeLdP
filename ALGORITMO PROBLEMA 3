@@ -1,4 +1,5 @@
-
+programa {
+funcao inicio () {
 //Declaração de Variável
 
 real n1, n2, n3, n4, media aritmetica
@@ -25,6 +26,8 @@ leia(n4)
 
 media aritmetica-(ni+n2+n3+n4)/4
 
-//Salda de Dados
+//Saída de Dados
 
 escreva("A médla do aluno é:", media aritmetica
+   }
+{

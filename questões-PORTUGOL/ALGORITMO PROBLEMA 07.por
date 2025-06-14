@@ -12,6 +12,6 @@ programa {
     comprimento = 2*pi*raio
     area= pi *(raio*raio)
     //Saída de dados
-    escreva ("O diametro da circunferencia é: ", diametro, "\n", " O comprimento da circunferencia é: ",comprimento, "\n"," E a área do circulo é: ", area, "\n")
+    escreva ("O diametro da circunferencia é: ", diametro, "\n", "O comprimento da circunferencia é: ",comprimento, "\n","E a área do circulo é: ", area, "\n")
   }
 }

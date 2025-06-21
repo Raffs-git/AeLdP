@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    //Declaração de Variáveis
+    real c , f
+    //Entrada de dados 
+    escreva ("Informe o valor da temperaura em Celsius: ")
+    leia (c)
+    //Processamento 
+    f= (9*c + 160 )/5
+    //Saída de dados
+    escreva ("O valor da temperatura em Fahrenheit é: ", f)
+  }
+}

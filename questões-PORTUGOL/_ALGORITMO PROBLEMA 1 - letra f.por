@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    //declaracao de variavel 
+    real volume_interno, raio, altura
+    //Declaração de constantes
+    const real volume = 3.14159
+    //Entrada de dados
+    escreva ("Informe o raio da base: ")
+    leia (raio)
+    escreva ("Informe a altura da base: ")
+    leia (altura)
+    //Processamento
+    volume_interno = volume * raio * raio * altura
+    //Saída de dados
+    escreva ("O volume interno da lata é: ",volume_interno, "cm³")
+  }
+}

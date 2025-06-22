@@ -2,7 +2,7 @@ Início
     //Declaracao de variável 
     real: volume_interno, raio, altura;
     //Declaração de constantes
-    constante real volume <- 3.14159;
+    constante real: volume <- 3.14159;
     //Entrada de dados
     escreva ("Informe o raio da base: ");
     leia (raio);

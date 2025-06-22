@@ -1,6 +1,6 @@
  Início 
     //Declaração de variáveis
-    cadeia nome, sobrenome;
+    caracter: nome, sobrenome;
     //Entrada de dados
     escreva ("Informe seu nome: ");
     leia (nome);

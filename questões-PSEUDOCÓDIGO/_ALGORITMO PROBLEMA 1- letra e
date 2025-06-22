@@ -1,0 +1,21 @@
+Início
+
+  // Declaração de variáveis
+  Real: fahrenheit, celsius;
+
+  // Declaração de constantes
+  Const inteiro f1 = 5;
+  Const inteiro f2 = 9;
+  Const inteiro ajuste = 32;
+
+  // Entrada de dados
+  Escreva ("Digite a temperatura em Fahrenheit:");
+  Leia (fahrenheit);
+
+  // Processamento
+  celsius ← ((fahrenheit - ajuste) * f1) / f2;
+
+  // Saída de dados
+  Escreva ("A temperatura em Celsius é: ", celsius);
+
+Fim;

@@ -2,9 +2,9 @@ Início
     //declaração de variável 
     real: conv_real_dolar, conv_real_euro, conv_real_libra, valor_real;
     //Entrada de dados
-    constante real dolar_real <- 5.66;
-    constante real euro_real <- 7.69;
-    constante real libra_real <- 6.74;
+    constante real: dolar_real <- 5.66;
+    constante real: euro_real <- 7.69;
+    constante real: libra_real <- 6.74;
     //Entrada de dados
     escreva ("Informe o valor em reais a ser convertido: ");
     leia (valor_real);

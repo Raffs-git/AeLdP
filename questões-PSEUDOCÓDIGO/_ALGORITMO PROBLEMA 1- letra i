@@ -1,0 +1,48 @@
+Início 
+		//Declaração de variável 
+		caracter: endereco, cnpj , numero, email, assinatura;
+    //Declaração de constante
+    constante real: qnt_notebook <- 1, qnt_impressora <- 1, qnt_pacotePapel <- 5, qnt_licencaMS_office <- 1, qnt_servico_Software <- 1;
+    constante inteiro: preco_UNITARIO_notebook <- 3.200, preco_UNITARIO_impressora <- 1.100, preco_UNITARIO_pacotePapel <- 35, preco_UNITARIO_licencaMSoffice <- 420, preco_UNITARIO_servico_Software<- 1;
+    const inteiro: valorFinal_NOTEBOOK <-3.200, valorFinal_impressora <- 1.100, valorFinal_pacotePapel <- 175, valorFinal_licencaMS_office <- 420, valorFinal_servico_Software <- 150;
+    const real: total <- 5.045.00;
+    //Entrada de dados
+    escreva ("CNPJ: ");
+    leia (cnpj);
+    escreva ("endereço: ");
+    leia (endereco);
+    escreva ("Número: ");
+    leia(numero);
+    escreva ("Email: ");
+    leia (email);
+		escreva ("Assinatura: ");
+    leia (assinatura);
+    //Saída de dados
+    escreva ("CNPJ: ",cnpj,"\n");
+    escreva ("endereço: ",endereco, "\n");
+    escreva ("formas de contato ", numero,",", email);
+    escreva("Notebook Lenovo IdeaPad 3 - quantidade: ", qnt_notebook, 
+        ", preço unitário: ", preco_UNITARIO_notebook, 
+        ", valor total: ", valorFinal_NOTEBOOK);
+
+    escreva("Impressora HP LaserJet Pro - quantidade: ", qnt_impressora, 
+        ", preço unitário: ", preco_UNITARIO_impressora, 
+        ", valor total: ", valorFinal_impressora);
+
+    escreva("Pacote Papel A4 500fls - quantidade: ", qnt_pacotePapel, 
+        ", preço unitário: ", preco_UNITARIO_pacotePapel, 
+        ", valor total: ", valorFinal_pacotePapel);
+
+    escreva("Licença MS Office 365 (anual) - quantidade: ", qnt_licencaMS_office, 
+        ", preço unitário: ", preco_UNITARIO_licencaMSoffice, 
+        ", valor total: ", valorFinal_licencaMS_office);
+
+    escreva("Serviço de Instalação de Software - quantidade: ", qnt_servico_Software, 
+        ", preço unitário: ", preco_UNITARIO_servico_Software, 
+        ", valor total: ", valorFinal_servico_Software);
+    escreva ("Total Geral: ",total, "\n");
+    escreva("Observação: Orçamento válido por 10 dias úteis. ", "\n");
+    escreva("Valores sujeitos à disponibilidade em estoque. ", "\n");
+    escreva("Pagamento via transferência bancária ou PIX.", "\n");
+    escreva ("Responsável pelo Orçamento: João Silva Vendas Corporativas.", "\n","Assinatura: ",assinatura);
+	Fim;

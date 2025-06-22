@@ -4,9 +4,9 @@ Início
   Real: fahrenheit, celsius;
 
   // Declaração de constantes
-  Const inteiro f1 = 5;
-  Const inteiro f2 = 9;
-  Const inteiro ajuste = 32;
+  Constante inteiro: f1 = 5;
+  Constante inteiro: f2 = 9;
+  Constante inteiro: ajuste = 32;
 
   // Entrada de dados
   Escreva ("Digite a temperatura em Fahrenheit:");

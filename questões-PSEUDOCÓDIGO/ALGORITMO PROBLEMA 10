@@ -1,0 +1,16 @@
+
+Inicio
+    //Declaração de variáveis
+    real: premio_primeiro_ganhador, premio_segundo_ganhador, premio_terceiro_ganhador, restante;
+    //Declaração de constante
+    constante real premio <- 780000.00;
+    //Processamento 
+    premio_primeiro_ganhador <- 0.46 * premio;
+    premio_segundo_ganhador <- 0.32 *premio;
+    restante <- premio- (premio_primeiro_ganhador+premio_segundo_ganhador);
+    premio_terceiro_ganhador <- restante;
+    //Saída de Dados
+    escreva (" o primeiro ganhador recebeu: R$", premio_primeiro_ganhador);
+    escreva (" o segundo ganhador recebeu: R$", premio_segundo_ganhador);
+    escreva (" o terceiro ganhador recebeu: R$" , premio_terceiro_ganhador);
+ Fim;

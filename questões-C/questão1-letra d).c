@@ -9,7 +9,7 @@ int main() {
     //Processamento 
     f= (9*c+160)/5;
     //Saída de dados
-    printf ("O valor da temperatura em Fahrenheit é: %f",&f);
+    printf ("O valor da temperatura em Fahrenheit é: %.f", f);
 
     return 0;
 }

@@ -12,6 +12,6 @@
     //Processamento
     volume_interno = volume * raio * raio * altura;
     //Saída de dados 
-     escreva ("O volume interno da lata é: %.f", volume_interno);
+     printf ("O volume interno da lata é: %.f", volume_interno);
      return 0;
   }

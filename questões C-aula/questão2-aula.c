@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Cabeçalho da tabela
+  
     printf("numero quadrado cubo\n");
 
     printf("\t0\t0\t\t0\n");

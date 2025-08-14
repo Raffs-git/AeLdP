@@ -5,10 +5,10 @@ int main() {
     float a, b;
 
     printf("===== operações =====\n");
-    printf("1 - Adicao\n");
-    printf("2 - Subtracao\n");
-    printf("3 - Multiplicacao\n");
-    printf("4 - Divisao\n");
+    printf("1 - adicao\n");
+    printf("2 - subtracao\n");
+    printf("3 - multiplicacao\n");
+    printf("4 - divisao\n");
     printf("escolha a opcao (1-4): ");
     scanf("%d", &op);
 

@@ -9,30 +9,30 @@ int main() {
     printf("2 - Subtracao\n");
     printf("3 - Multiplicacao\n");
     printf("4 - Divisao\n");
-    printf("Escolha a opcao (1-4): ");
+    printf("escolha a opcao (1-4): ");
     scanf("%d", &op);
 
-    printf("Digite o primeiro numero: ");
+    printf("informe seu primeiro numero: ");
     scanf("%f", &a);
 
-    printf("Digite o segundo numero: ");
+    printf("informe seu segundo numero: ");
     scanf("%f", &b);
 
     switch(op) {
         case 1:
-            printf("Resultado: %.2f\n", a + b);
+            printf("o resultado é: %.2f\n", a + b);
             break;
         case 2:
-            printf("Resultado: %.2f\n", a - b);
+            printf("o resultado é: %.2f\n", a - b);
             break;
         case 3:
-            printf("Resultado: %.2f\n", a * b);
+            printf("o resultado é: %.2f\n", a * b);
             break;
         case 4:
-            printf("Resultado: %.2f\n", a / b);
+            printf("o resultado é: %.2f\n", a / b);
             break;
         default:
-            printf("Opcao invalida!\n");
+            printf("a opção não é correta\n");
     }
 
     return 0;

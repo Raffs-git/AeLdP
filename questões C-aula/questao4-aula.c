@@ -4,7 +4,7 @@ int main() {
     int op;
     float a, b;
 
-    printf("===== MENU =====\n");
+    printf("===== operações =====\n");
     printf("1 - Adicao\n");
     printf("2 - Subtracao\n");
     printf("3 - Multiplicacao\n");

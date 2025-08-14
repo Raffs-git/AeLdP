@@ -6,11 +6,12 @@ int main() {
     printf("informe um numero inteiro: ");
     scanf("%d", &n);
 
-
-    if ((n % 2 == 0 && n % 3 != 0) || (n % 3 == 0 && n % 2 != 0))
-        printf("Sim\n");
-    else
-        printf("Nao\n");
+    if (n % 2 == 0)
+        printf("é divisivel por 2\n");
+    if (n % 3 == 0)
+        printf("é divisivel por 3\n");
+    if (!(n % 2 == 0 && n % 3 == 0))
+        printf("nao é divisivel simultaneamente por 2 e 3\n");
 
     return 0;
 }

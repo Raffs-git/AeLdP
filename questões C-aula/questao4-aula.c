@@ -4,12 +4,12 @@ int main() {
     int op;
     float a, b;
 
-    printf("===== operações =====\n");
-    printf("1 - adicao\n");
-    printf("2 - subtracao\n");
-    printf("3 - multiplicacao\n");
-    printf("4 - divisao\n");
-    printf("escolha a opcao (1-4): ");
+    printf("===== operacoes =====\n");
+    printf("1 adicao\n");
+    printf("2 subtracao\n");
+    printf("3 multiplicacao\n");
+    printf("4 divisao\n");
+    printf("escolha a operacao: ");
     scanf("%d", &op);
 
     printf("informe seu primeiro numero: ");
@@ -32,7 +32,7 @@ int main() {
             printf("o resultado é: %.2f\n", a / b);
             break;
         default:
-            printf("a opção não é correta\n");
+            printf("a operacao não é correta\n");
     }
 
     return 0;
